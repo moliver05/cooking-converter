@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Cooking App</title>
   </head>
   <body>
-    <h1>Cooking App</h1>
-    <script src="js/scripts.js"></script>
+    <div class="container">
+      <h1>Cooking App</h1>
+      <!-- Gallons to Liters -->
+      <form id="formOne">
+        <div class="form-group">
+          <h3>Gallons to Liters</h3>
+          <label for="gallonXLiter">Gallon Amount:</label>
+          <input id="gallonXLiter" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn btn-success">Convert</button>
+        <p class="output" id="outputOne"><p>
+      </form>
+      <!-- Liters to Gallons -->
+      <form id="formTwo">
+        <div class="form-group">
+          <h3>Liters to Gallons</h3>
+          <label for="literXGallon">Liter Amount:</label>
+          <input id="literXGallon" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn btn-success">Convert</button>
+        <p class="output" id="outputTwo"><p>
+      </form>
+      </div>
+    </div>
   </body>
 </html>

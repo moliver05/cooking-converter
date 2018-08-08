@@ -1,0 +1,7 @@
+.output {
+  float: right;
+  display: inline;
+  margin-right: 65%;
+  font-size: 18px;
+  font-weight: bold;
+}
